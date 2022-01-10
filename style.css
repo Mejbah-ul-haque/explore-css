@@ -4,7 +4,14 @@ body{
     font-family: 'Poppins', sans-serif; 
     margin: 0 auto;
     width: 1100px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
+}
+section{
+    border-bottom: 1px dashed rgb(145, 143, 143);
+    padding: 50px 0;
+}
+p{
+ font-family: roboto;
 }
 #main-heading{
     font-family: 'Russo One', sans-serif;
@@ -12,23 +19,25 @@ body{
 }
 .display{
     display: flex;
+
 }
 li{
     font-size: 20px;
     width: 100px;
     margin: 5px;
     padding: 1px 60px; 
-    width: 33%;
+    margin-right: 30px;
+    background-color: rgb(49, 49, 177);
 }
 .inline li{
      background-color: #131313;
-
 }
 .inline li:nth-child(2n){
     background-color: rgb(33, 34, 39);
 }
 .block li{
     background-color: rgb(1, 1, 42);
+    ma
 }
 .block li:nth-child(2n){
     background-color:rgba(12, 12, 53, 0.63); ;
@@ -46,4 +55,12 @@ table{
 table th, td{
     border: 1px solid rgb(105, 105, 105);
     padding: 4px 30px;
+}
+img{
+    margin-top: 50px;
+}
+.fas{
+    padding-right: 10px;
+    color: rgb(151, 3, 3);
+    font-size: 16px;
 }
